@@ -1,0 +1,52 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP3kI2v4vozv2bFgF0bSIkF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enzoribeiro1947/Algoritimy-and-programing-classess/blob/main/dobro%20do%20n%C3%BAmero\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "faça umalgoritimo que receba um número e dobre-o"
+      ],
+      "metadata": {
+        "id": "ZEHqHqWh80Oq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = float(input(\"digite um número\"))\n",
+        "nx2 = numero * 2\n",
+        "print(f\"o dobro do seu número é: {nx2}\")"
+      ],
+      "metadata": {
+        "id": "dEDV7nbL9A5p"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
