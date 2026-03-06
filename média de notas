@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNZ9e3hroTs13I1n7iVMBRp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enzoribeiro1947/Algoritimy-and-programing-classess/blob/main/m%C3%A9dia%20de%20notas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. soma = +\n",
+        "2. sub = -\n",
+        "3. mult = *\n",
+        "4. div = /"
+      ],
+      "metadata": {
+        "id": "t70kr1_s02kk"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "fazer um algoritimo que recebe quatro notas do aluno e calcula a média aritimética e a imprime"
+      ],
+      "metadata": {
+        "id": "2bLBaEvP0qS4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "p1 = float(input(\"qual o resultado da prova 1? \"))\n",
+        "p2 = float(input(\"qual o resultado da prova 2? \"))\n",
+        "p3 = float(input(\"qual o resultado da prova 3? \"))\n",
+        "p4 = float(input(\"qual o resultado da prova 4? \"))\n",
+        "\n",
+        "somap = p1 + p2 + p3 + p4\n",
+        "divp = somap / 4\n",
+        "print(f\"a sua média será: {divp}\")"
+      ],
+      "metadata": {
+        "id": "oUq1c_G71Ppc"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
