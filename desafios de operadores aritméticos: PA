@@ -1,0 +1,195 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/enzoribeiro1947/Algoritimy-and-programing-classess/blob/main/desafios%20de%20operadores%20aritm%C3%A9ticos%3A%20PA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "GjUIBsJ8LQ9z"
+      },
+      "outputs": [],
+      "source": [
+        "#soma\n",
+        "\n",
+        "num1 = int(input(\"digite o primeiro número: \"))\n",
+        "num2 = int(input(\"digite o segundo numéro: \"))\n",
+        "result = num1 + num2\n",
+        "print(f\"o resultado é: {result}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#subtração\n",
+        "\n",
+        "num1 = int(input(\"digite o primeiro número: \"))\n",
+        "num2 = int(input(\"digite o segundo numéro: \"))\n",
+        "result = num1 - num2\n",
+        "print(f\"o resultado é: {result}\")"
+      ],
+      "metadata": {
+        "id": "CJPzQ4haBOS4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# multiplicação\n",
+        "\n",
+        "num1 = int(input(\"digite o primeiro número: \"))\n",
+        "num2 = int(input(\"digite o segundo numéro: \"))\n",
+        "result = num1 * num2\n",
+        "print(f\"o resultado é: {result}\")"
+      ],
+      "metadata": {
+        "id": "qm5Y4fnNBU7i"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "while True:\n",
+        "    num1 = int(input(\"digite o primeiro número: \"))\n",
+        "    num2 = int(input(\"digite o segundo número: \"))\n",
+        "    if num1 == 0 or num2 == 0:\n",
+        "        print(\"resposta invalida, tente novamente: 1\")\n",
+        "        continue\n",
+        "    result = num1 + num2\n",
+        "    print(f\"o resultado é: {result}\")\n",
+        "    break"
+      ],
+      "metadata": {
+        "id": "OTVVLLIXBdxT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#média arritmética\n",
+        "\n",
+        "num1 = int(input(\"digite o primeiro número: \"))\n",
+        "num2 = int(input(\"digite o segundo numéro: \"))\n",
+        "num3 = int(input(\"digite o terceiro número: \"))\n",
+        "media = num1 + num2 + num3 / 3\n",
+        "print(f\"o resultado é: {media}\")"
+      ],
+      "metadata": {
+        "id": "oAYPAQuhG_wH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#divisão inteira e resto\n",
+        "\n",
+        "num1 = int(input(\"digite o primeiro número: \"))\n",
+        "dobro = num1 * 2\n",
+        "metade = num1 / 2\n",
+        "resto = num1 % 3\n",
+        "print(f\"seu número é: {num1}, que multiplicado por 2 é: {dobro}, a metade dele é: {metade}, e o resto dele por 3 é: {resto}\")"
+      ],
+      "metadata": {
+        "id": "_sXkQKovHXE5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#conversão de temperatura\n",
+        "\n",
+        "celsius = int(input(\"digite a temperatura em celsius: \"))\n",
+        "fahrenheit = celsius * 1.8 + 32\n",
+        "print(f\"a temperatura em fahrenheit é: {fahrenheit}\")"
+      ],
+      "metadata": {
+        "id": "YaEQ8B_ZJXoR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salario = float(input(\"digite o seu salário: \"))\n",
+        "aumento = salario * 10 / 100\n",
+        "novosal = salario + aumento\n",
+        "print(f\"seu novo salário será de: R${novosal}\")"
+      ],
+      "metadata": {
+        "id": "PibGJkLnKAyF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#área do retângulo\n",
+        "\n",
+        "base = int(input(\"digite a base do retângulo: \"))\n",
+        "altura = int(input(\"digite a altura do retângulo: \")\n",
+        "area = base * altura\n",
+        "print(f\"a área do retângulo é: {area}\")"
+      ],
+      "metadata": {
+        "id": "CjXUjRt0LwJn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "while True:\n",
+        "    km = float(input(\"digite a quantidade de km percorridos: \"))\n",
+        "    l = float(input(\"digite a quantidade de litros de combustível: \"))\n",
+        "    if km == 0 or l == 0:\n",
+        "        print(\"não pode colocar 0, digita de novo\")\n",
+        "        continue\n",
+        "    media = km / l\n",
+        "    print(f\"consumo médio: {media} km/l\")\n",
+        "    break"
+      ],
+      "metadata": {
+        "id": "hiITc1nLMH6k"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM6EI15n4o6d316F4bSnlWb",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
